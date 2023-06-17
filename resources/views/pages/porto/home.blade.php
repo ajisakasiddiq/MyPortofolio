@@ -18,9 +18,10 @@
                         <h1 class="animated animated-text">
                             <span class="mr-2">Hey Everyone, I'm</span>
                                 <div class="animated-info">
-                                    <span class="animated-item">Marvel Sann</span>
-                                    <span class="animated-item">Web Designer</span>
-                                    <span class="animated-item">UI Specialist</span>
+                                    {{-- <span class="animated-item">Ajisaka Siddiq</span> --}}
+                                    <span class="animated-item">Ajisaka Siddiq</span>
+                                    <span class="animated-item">WebDeveloper</span>
+                                    {{-- <span class="animated-item">UI Specialist</span> --}}
                                 </div>
                         </h1>
 

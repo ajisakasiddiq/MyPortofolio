@@ -23,7 +23,7 @@
                     <a href="{{ route('blog') }}" class="nav-link"><span data-hover="Blog">Blog</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{ route('bootcamp') }}" class="nav-link"><span data-hover="Bootcamp">Bootcamp</span></a>
+                    <a href="{{ route('bootcamp') }}" class="nav-link"><span data-hover="Ngoding">Ngoding</span></a>
                 </li>
 
             </ul>

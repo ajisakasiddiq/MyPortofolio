@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\admin\DashbordController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\BootcampController;
 use Illuminate\Support\Facades\Route;
@@ -17,7 +18,12 @@ use App\Http\Controllers\ProjectController;
 |
 */
 
+Route::get('/dash', function () {
+    return view('pages.dashboard.dashboard-home');
+});
+
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
 Route::get('/blog', [BlogController::class, 'index'])->name('blog');
 Route::get('/bootcamp', [BootcampController::class, 'index'])->name('bootcamp');
+Route::get('/dashboard', [DashbordController::class, 'index'])->name('dashboard');
