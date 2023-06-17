@@ -19,7 +19,7 @@ use App\Http\Controllers\ProjectController;
 */
 
 Route::get('/dash', function () {
-    return view('pages.dashboard.dashboard-home');
+    return view('pages.dashboardhome');
 });
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
