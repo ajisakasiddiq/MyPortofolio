@@ -13,16 +13,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a href="#about" class="nav-link"><span data-hover="About">About</span></a>
+                    <a href="#" class="nav-link"><span data-hover="Home">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#project" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    <a href="#" class="nav-link"><span data-hover="Projects">Projects</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    <a href="#" class="nav-link"><span data-hover="Resume">Resume</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    <a href="#" class="nav-link"><span data-hover="Contact">Contact</span></a>
                 </li>
             </ul>
 
