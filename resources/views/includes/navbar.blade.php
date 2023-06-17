@@ -13,17 +13,19 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><span data-hover="Home">Home</span></a>
+                    {{-- <a href="{{ route('home') }}" class="nav-item nav-link {{ (request()->is('/')) ? 'active' : ''}}">Home</a> --}}
+                    <a href="{{ route('home') }}" class="nav-link"><span data-hover="Home">Home</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><span data-hover="Projects">Projects</span></a>
+                    <a href="{{ route('projects') }}" class="nav-link"><span data-hover="Projects">Projects</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><span data-hover="Resume">Resume</span></a>
+                    <a href="{{ route('blog') }}" class="nav-link"><span data-hover="Blog">Blog</span></a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link"><span data-hover="Contact">Contact</span></a>
+                    <a href="{{ route('bootcamp') }}" class="nav-link"><span data-hover="Bootcamp">Bootcamp</span></a>
                 </li>
+
             </ul>
 
             <ul class="navbar-nav ml-lg-auto">

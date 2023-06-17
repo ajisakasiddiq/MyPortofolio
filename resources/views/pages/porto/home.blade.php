@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('title')
-    Porotofolio | Ajisaka Siddiq
+    Home | Portofolio
 @endsection
 
 

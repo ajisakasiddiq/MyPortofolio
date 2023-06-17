@@ -1,7 +1,11 @@
 <?php
 
+use App\Http\Controllers\BlogController;
+use App\Http\Controllers\BootcampController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ProjectController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,3 +18,6 @@ use App\Http\Controllers\HomeController;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/projects', [ProjectController::class, 'index'])->name('projects');
+Route::get('/blog', [BlogController::class, 'index'])->name('blog');
+Route::get('/bootcamp', [BootcampController::class, 'index'])->name('bootcamp');
