@@ -53,14 +53,14 @@
                       <div class="col-lg-8 mx-auto">
                         <h2>Last Project</h2>
                       </div>
-
+<a href="">
                       <div class="owl-carousel owl-theme">
                         <div class="item">
                           <div class="project-info">
                             <img src="images/project/project-image01.png" class="img-fluid" alt="project image">
                           </div>
                         </div>
-
+                      </a>
                         <div class="item">
                           <div class="project-info">
                             <img src="images/project/project-image02.png" class="img-fluid" alt="project image">
