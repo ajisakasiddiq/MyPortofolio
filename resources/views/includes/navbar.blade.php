@@ -26,6 +26,10 @@
                     <a href="#resume" class="nav-link"><span data-hover="Resume">Resume</span></a>
                 </li>
                 <li class="nav-item">
+                    {{-- <a href="{{ route('blog') }}" class="nav-link"><span data-hover="Blog">Blog</span></a> --}}
+                    <a href="#serti" class="nav-link"><span data-hover="Sertifikat">Sertifikat</span></a>
+                </li>
+                <li class="nav-item">
                     {{-- <a href="{{ route('bootcamp') }}" class="nav-link"><span data-hover="Ngoding">Ngoding</span></a> --}}
                     <a href="#contact" class="nav-link"><span data-hover="Contact">Contact</span></a>
                 </li>
